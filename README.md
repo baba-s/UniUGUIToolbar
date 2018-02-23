@@ -14,24 +14,24 @@ https://github.com/baba-s/ugui-toorbar/blob/master/uGUIToolbar.unitypackage?raw=
 
 # 使い方
 
-![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/0001.png)
+![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/001.png)
 
 Unity メニューの「Window>uGUI Toolbar」を選択すると  
 
-![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/0002.png)
+![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/002.png)
 
 uGUI のオブジェクトを作成できるツールバーが表示されます  
 そして、各ボタンを押すことで、それに紐付いたオブジェクトを作成できます  
 
-![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/0003.png)
+![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/003.png)
 
 Unity エディタのどこかにドッキングしておくと、  
 いつでも簡単に uGUI のオブジェクトを作成できるようになります  
 
-![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/0004.png)
+![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/004.png)
 
 また、ウィンドウのタブを右クリックして「Vertical」をチェックすると  
 
-![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/0005.png)
+![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/005.png)
 
 ツールバーを縦向きに表示できます  
