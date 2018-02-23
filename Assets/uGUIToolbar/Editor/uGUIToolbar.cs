@@ -71,11 +71,15 @@ public class uGUIToolbar : EditorWindow, IHasCustomMenu
 		var win = GetWindow<uGUIToolbar>( TITLE );
 
 		var pos = win.position;
+		pos.width = 640;
 		pos.height = WINDOW_HEIGHT;
 		win.position = pos;
 
 		win.minSize = new Vector2( WINDOW_WIDTH, WINDOW_HEIGHT );
-		win.maxSize = new Vector2( WINDOW_WIDTH, WINDOW_HEIGHT );
+
+		var maxSize = win.maxSize;
+		maxSize.y = WINDOW_HEIGHT;
+		win.maxSize = maxSize;
 	}
 
 	private void OnGUI()
