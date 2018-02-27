@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -54,10 +55,12 @@ public class uGUIToolbar : EditorWindow, IHasCustomMenu
 		new Data( typeof( RectMask2D    ), "Component/UI/"          , "Rect Mask 2D"    ),
 	};
 
+	private string m_dir;
+
 	private uGUIToolbarSettings m_settings;
 	private uGUIToolbarSettings Settings
 	{
-		get { return m_settings ?? ( m_settings = AssetDatabase.LoadAssetAtPath<uGUIToolbarSettings>( "Assets/uGUIToolbar/Editor/uGUIToolbarSettings.asset" ) ); }
+		get { return m_settings ?? ( m_settings = AssetDatabase.LoadAssetAtPath<uGUIToolbarSettings>( m_dir + "/uGUIToolbarSettings.asset" ) ); }
 	}
 	private bool IsVertical
 	{
@@ -132,5 +135,12 @@ public class uGUIToolbar : EditorWindow, IHasCustomMenu
 		{
 			IsVertical = !IsVertical;
 		} );
+	}
+
+	private void OnEnable()
+	{
+		var mono = MonoScript.FromScriptableObject( this );
+		var path = AssetDatabase.GetAssetPath( mono );
+		m_dir = Path.GetDirectoryName( path );
 	}
 }
