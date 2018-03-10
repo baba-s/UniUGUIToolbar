@@ -1,48 +1,46 @@
-[日本語の Readme はこちら](https://github.com/baba-s/ugui-toorbar/blob/master/README_JP.md)  
-
 # uGUIToolbar
 
-A toolbar that can create uGUI objects.  
+「uGUIToolbar」は uGUI のオブジェクトを作成できるツールバーです  
 
-# Version
+# 開発環境
 
 - Unity 2017.3.0f3
 
-# Install
+# 導入方法
 
-1. Go to the following page and download "uGUIToolbar.unitypackage".  
+1. 下記のページにアクセスして「uGUIToolbar.unitypackage」をダウンロードします  
 https://github.com/baba-s/ugui-toorbar/blob/master/uGUIToolbar.unitypackage?raw=true
-2. Import the downloaded "uGUIToolbar.unitypackage" into the Unity project.  
+2. ダウンロードした「uGUIToolbar.unitypackage」を Unity プロジェクトにインポートします  
 
-# Usage
+# 使い方
 
 ![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/001.png)
 
-When you select "Window > uGUI Toolbar" in the Unity menu,  
+Unity メニューの「Window>uGUI Toolbar」を選択すると  
 
 ![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/002.png)
 
-A tool bar that allows you to create uGUI objects is displayed.  
-By pressing each button, you can create an object attached to it.  
+uGUI のオブジェクトを作成できるツールバーが表示されます  
+そして、各ボタンを押すことで、それに紐付いたオブジェクトを作成できます  
 
 ![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/003.png)
 
-Docking somewhere in the Unity editor,  
-You can easily create uGUI objects at any time.  
+Unity エディタのどこかにドッキングしておくと、  
+いつでも簡単に uGUI のオブジェクトを作成できるようになります  
 
 ![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/004.png)
 
-Also, right click on the tab of the window and check "Vertical",  
+また、ウィンドウのタブを右クリックして「Vertical」をチェックすると  
 
 ![](https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/005.png)
 
-You can display the toolbar in portrait orientation.  
+ツールバーを縦向きに表示できます  
 
-# Button
+# ボタン
 
-|Button|Target|Remarks|
+|ボタン|作成できるオブジェクト|備考|
 |:--|:--|:--|
-|<img src="https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/Create Empty Child.png" width=32 height=32>|Empty Child||
+|<img src="https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/Create Empty Child.png" width=32 height=32>|空のゲームオブジェクト||
 |<img src="https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/Text.png" width=32 height=32>|Text||
 |<img src="https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/Image.png" width=32 height=32>|Image||
 |<img src="https://raw.githubusercontent.com/baba-s/ugui-toorbar/master/Screenshots/Raw Image.png" width=32 height=32>|Raw Image||
