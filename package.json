@@ -1,0 +1,9 @@
+{
+    "name": "com.baba-s.uni-ugui-toolbar",
+    "displayName": "UniUGUIToolbar",
+    "version": "1.0.0",
+    "unity": "2019.2",
+    "author": "baba-s",
+    "description": "",
+    "dependencies": {}
+}

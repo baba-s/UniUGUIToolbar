@@ -1,18 +1,6 @@
-[日本語の Readme はこちら](https://github.com/baba-s/ugui-toorbar/blob/master/README_JP.md)  
-
-# uGUIToolbar
+# Uni UGUI Toolbar
 
 A toolbar that can create uGUI objects.  
-
-# Version
-
-- Unity 2017.3.0f3
-
-# Install
-
-1. Go to the following page and download "uGUIToolbar.unitypackage".  
-https://github.com/baba-s/ugui-toorbar/blob/master/uGUIToolbar.unitypackage?raw=true
-2. Import the downloaded "uGUIToolbar.unitypackage" into the Unity project.  
 
 # Usage
 
