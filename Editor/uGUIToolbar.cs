@@ -60,7 +60,7 @@ namespace UniUGUIToolbar
 
 		private bool IsVertical => false;
 
-		[MenuItem( "Window/UniUGUIToolbarr" )]
+		[MenuItem( "Window/UniUGUIToolbar" )]
 		private static void Init()
 		{
 			var win = GetWindow<uGUIToolbar>( TITLE );
