@@ -4,7 +4,7 @@ uGUI のオブジェクトを作成できるツールバーのエディタ拡張
 
 ## 使い方
 
-![2020-04-22_231051](https://user-images.githubusercontent.com/6134875/79992645-bd3a0300-84ee-11ea-9a60-7c5a4ebfe98e.png)
+![2020-04-22_231051](https://user-images.githubusercontent.com/6134875/79992698-d04cd300-84ee-11ea-9149-89e67cde7631.png)
 
 Unity メニューの「Window > UniUGUIToolbar」を選択すると  
 
